@@ -10,7 +10,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   margin-left: 80px; /* Keep this margin */
-  max-width: 700px; /* Limit max-width */
+  max-width: 1000px; /* Limit max-width */
   width: calc(100% - 80px); /* Subtract margin to allow for the full width minus left margin */
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
