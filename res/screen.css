@@ -9,9 +9,9 @@ body {
   font-family: "Oxygen", helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  margin-left: 40px; /* Keep this margin */
+  margin-left: 80px; /* Keep this margin */
   max-width: 700px; /* Limit max-width */
-  width: calc(100% - 40px); /* Subtract margin to allow for the full width minus left margin */
+  width: calc(100% - 80px); /* Subtract margin to allow for the full width minus left margin */
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-smoothing: subpixel-antialiased;
