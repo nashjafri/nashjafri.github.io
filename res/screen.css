@@ -9,9 +9,9 @@ body {
   font-family: "Oxygen", helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  margin-left: 80px; /* Keep this margin */
+  margin-left: 100px; /* Increased margin */
   max-width: 1000px; /* Limit max-width */
-  width: calc(100% - 80px); /* Subtract margin to allow for the full width minus left margin */
+  width: calc(100% - 100px); /* Subtract updated margin to allow for full width */
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-smoothing: subpixel-antialiased;
@@ -26,6 +26,7 @@ body {
   -webkit-font-feature-settings: "kern" 1, "liga" 1;
   font-feature-settings: "kern" 1, "liga" 1;
 }
+
 
 
 .left {
