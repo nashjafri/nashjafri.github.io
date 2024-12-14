@@ -2,7 +2,7 @@
   width: device-width;
 }
 
-* { margin:0; padding:0; font-family:inherit; }
+* { margin-left:-20px; padding:0; font-family:inherit; }
 body {
   background: #fff;
   color: #222;
@@ -141,7 +141,7 @@ header * {
   header h1 {
     /*background: lightblue;*/
     flex: 0 0 auto;
-    margin: 0;
+    margin: -20 px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,18 +213,16 @@ div.content {
   background:white;
   margin-top: 0;
   margin-bottom: 60px;
+  margin-left: -20px
 }
 div.content.photo {
   padding: 0;
   margin-bottom: -20px;
 }
 
-div.content p, div.content h1, div.content h2, div.content h3, div.content ul, div.content ol, div.content blockquote {
-  margin-left: -60px; /* Pull text further left */
-}
 
 div.content img[align="right"] {
-  margin-left: 2em; /* Keeps space between text and image */
+  margin-left: 4em; /* Keeps space between text and image */
 }
   div.content:not(.sub) h1:first-child {
     margin-top:0;
