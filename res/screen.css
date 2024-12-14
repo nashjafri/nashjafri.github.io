@@ -222,7 +222,7 @@ div.content.photo {
   margin:0;
 }
   div.content:not(.sub) h1:first-child {
-    margin-top:0;
+    margin-left:-10px;
   }
   
   div.content img, div.content iframe { display:block; max-width:100%; margin:1em 0; }
