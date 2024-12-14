@@ -119,7 +119,7 @@ header {
   justify-content: right;
   height: 100px;
   cursor: default;
-  margin-right: -10px    
+  margin-right: -10px;    
 }
 header * {
   cursor: default;
@@ -215,7 +215,7 @@ div.content {
   background:white;
   margin-top: 0;
   margin-bottom: 60px;
-  margin-left: -10px    
+  margin-left: -10px;    
 }
 div.content.photo {
   padding: 0;
