@@ -12,7 +12,7 @@ body {
 
   width: 100%;
   max-width:700px;
-  margin: -20px;
+  margin: 0 auto;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased;
@@ -141,7 +141,7 @@ header * {
   header h1 {
     /*background: lightblue;*/
     flex: 0 0 auto;
-    margin: 0px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,16 +213,10 @@ div.content {
   background:white;
   margin-top: 0;
   margin-bottom: 60px;
-  margin-left: 0px
 }
 div.content.photo {
   padding: 0;
-  margin-bottom: -20px;
-}
-
-
-div.content img[align="right"] {
-  margin-left: 4em; /* Keeps space between text and image */
+  margin:0;
 }
   div.content:not(.sub) h1:first-child {
     margin-top:0;
