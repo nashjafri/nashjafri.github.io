@@ -218,6 +218,11 @@ div.content.photo {
   padding: 0;
   margin-bottom: 20px;
 }
+
+div.content img[align="right"] {
+  margin-top: 1em;    /* Pushes the image lower */
+  margin-left: 2em;   /* Adds more gap between text and image */
+}
   div.content:not(.sub) h1:first-child {
     margin-top:0;
   }
