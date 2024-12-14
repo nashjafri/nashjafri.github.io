@@ -2,7 +2,7 @@
   width: device-width;
 }
 
-* { margin-left:-5px; padding:0; font-family:inherit; }
+* { margin-left:-10px; padding:0; font-family:inherit; }
 body {
   background: #fff;
   color: #222;
@@ -12,7 +12,7 @@ body {
 
   width: 100%;
   max-width:700px;
-  margin-left: 15px;
+  margin-left: -5px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased;
@@ -119,7 +119,7 @@ header {
   justify-content: right;
   height: 100px;
   cursor: default;
-  margin-right: -10px;    
+  /*margin-right: -10px;*/   
 }
 header * {
   cursor: default;
