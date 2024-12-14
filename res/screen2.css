@@ -1,0 +1,176 @@
+/* General Resets and Basics */
+@viewport {
+  width: device-width;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: #333;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+header p.subtitle {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+header a {
+  color: #b30000;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+header a:hover {
+  color: #000;
+  border-bottom-color: #b30000;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #e2e2e2;
+  margin: 2rem 0;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #b30000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+p, li {
+  font-size: 1em;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+ul {
+  margin-left: 1.2em;
+  padding-left: 1em;
+}
+
+a {
+  color: #b30000;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px dashed #b30000;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 1px solid #b30000;
+}
+
+/* Code Styles */
+pre, code {
+  background: #f8f8f8;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.95em;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
+
+code {
+  padding: 0.2em 0.5em;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 1em auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin: 3rem 0 1rem;
+  color: #888;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #888;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+footer a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+body {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+}
