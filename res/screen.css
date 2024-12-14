@@ -9,7 +9,7 @@ body {
   font-family: "Oxygen", helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  margin-left: 100px; /* Increased margin */
+  margin-left: 100px !important; /* Increased margin */
   max-width: 1000px; /* Limit max-width */
   width: calc(100% - 100px); /* Subtract updated margin to allow for full width */
   -webkit-text-size-adjust: 100%;
