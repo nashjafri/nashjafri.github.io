@@ -141,7 +141,7 @@ header * {
   header h1 {
     /*background: lightblue;*/
     flex: 0 0 auto;
-    margin: -20 px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,7 +213,7 @@ div.content {
   background:white;
   margin-top: 0;
   margin-bottom: 60px;
-  margin-left: -20px
+  margin-left: 0px
 }
 div.content.photo {
   padding: 0;
