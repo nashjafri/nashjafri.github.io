@@ -116,7 +116,7 @@ header, div.content, footer {
 header {
   /*background: salmon;*/
   display: flex;
-  justify-content: flex-end;
+  justify-content: right;
   height: 100px;
   cursor: default;
 }
