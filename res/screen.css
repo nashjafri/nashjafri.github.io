@@ -116,7 +116,7 @@ header, div.content, footer {
 header {
   /*background: salmon;*/
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 100px;
   cursor: default;
 }
@@ -145,6 +145,7 @@ header * {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: right;
   }
   header a[href] {
     color: inherit;
@@ -170,7 +171,7 @@ header * {
     /*background: rgba(0,255,190,0.3);*/
     flex: 0 0 auto;
     margin: 0;
-    text-align: left;
+    text-align: right;
     display: flex;
     opacity: 0.1;
   }
