@@ -70,7 +70,7 @@ h4, h5, h6 { font-size: 16px; margin:1em 0 -0.2em 0; }
 
 /* anchors */
 a[href] {
-  color: darkblue;
+  color: darkred;
   text-decoration: none;
   /*display: inline-block;*/
   padding-bottom:0.025em;
@@ -216,12 +216,15 @@ div.content {
 }
 div.content.photo {
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: -20px;
+}
+
+div.content p, div.content h1, div.content h2, div.content h3, div.content ul, div.content ol, div.content blockquote {
+  margin-left: -20px; /* Pull text further left */
 }
 
 div.content img[align="right"] {
-  margin-top: 1em;    /* Pushes the image lower */
-  margin-left: 2em;   /* Adds more gap between text and image */
+  margin-left: 2em; /* Keeps space between text and image */
 }
   div.content:not(.sub) h1:first-child {
     margin-top:0;
